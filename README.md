@@ -1,2 +1,2 @@
 # Nori-bot
-DIscord bot
+Discord bot
