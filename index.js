@@ -29,8 +29,8 @@ client.on('message', async message => {
   }*/
 	
   if(message.content.includes("XD") ){
-  message.delete({timeout: 1000});
-  return;
+  	message.delete({timeout: 1000});
+  	return;
   }
   
 	if (message.author.bot) return;
