@@ -28,10 +28,10 @@ client.on('message', async message => {
   message.react('400851460235067392');
   }*/
 	
-  if(message.content.includes("XD") ){
+  /*if(message.content.includes("XD") ){
   	message.delete({timeout: 1000});
   	return;
-  }
+  }*/
   
 	if (message.author.bot) return;
 	if (!message.content.startsWith(prefix)) return;
