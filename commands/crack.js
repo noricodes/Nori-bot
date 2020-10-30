@@ -7,7 +7,6 @@ try{
 
   const embed = new Discord.RichEmbed()
     .setColor(16754843)
-    //.setTitle('hope u lose')
     .setTitle('Google Roles')
 
 
