@@ -3,7 +3,6 @@ const ascii = require('ascii-art');
 exports.run = (client, message, args, ops) => {
 
   ascii.font(args.join(' '), 'Doom', function(rendered){
-    //ascii.font(args.join(' '), 'Doom', function(rendered){
 
     rendered = rendered.trimRight();
 
