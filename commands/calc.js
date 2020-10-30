@@ -7,8 +7,6 @@ exports.run = (client, message, args, tools) => {
 
   let resp;
 
-  let msg = 'fk u, do it urself';
-
   try {
 
     resp = math.eval(args.join(' '));
@@ -23,7 +21,6 @@ exports.run = (client, message, args, tools) => {
     .setColor(16754843)
     .setTitle('Math Calculator')
     .addField('Input', `\`\`\`js\n${args.join(' ')}\`\`\``)
-    //.addField('Output', `\`\`\`js\n${msg}\`\`\``)
     .addField('Output', `\`\`\`js\n${resp}\`\`\``)
 
   message.channel.send(embed);
