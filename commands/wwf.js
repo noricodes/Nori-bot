@@ -41,7 +41,6 @@ exports.run = async (client, message, args, ops) => {
     const embed = new Discord.RichEmbed()
       .setColor(16754843)
       .setTitle('WWF Score')
-      //.setDescription('fk off')
       .setDescription(`**${args.join(' ')}**: ${score}`)
 
     if(message.channel.id != '570803215310782480'){
