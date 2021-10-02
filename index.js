@@ -21,7 +21,7 @@ client.on('message', async message => {
 	let cmd = args.shift().toLowerCase();
   
   if (message.channel.id === '570803215310782480' && message.content.substring(0,5) != '+pay' && !message.author.bot){
-  message.delete({timeout: 1000});
+  message.delete({timeout: 1500});
   }
 	
   
